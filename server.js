@@ -69,6 +69,11 @@ app.get("/users/tasks", (req, res) => {
   console.log(req.isAuthenticated());
 });
 
+app.get("/users/tracker", (req, res) => {
+  res.render("tracker.ejs")
+  console.log(req.isAuthenticated());
+});
+
 // app.get("/users/ForgotPass", (req, res) => {
 //   res.render("forgotpass.ejs")
 //   console.log(req.isAuthenticated());

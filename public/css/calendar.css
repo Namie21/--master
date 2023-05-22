@@ -24,7 +24,7 @@
     position: relative;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     padding-bottom: 30px;
     background-color: #e2e1dc;
@@ -266,7 +266,7 @@
     font-weight: 500;
   }
   .right .today-date .event-date {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #878895;
   }
@@ -293,6 +293,7 @@
     color: #fff;
     background: linear-gradient(90deg, #3f4458, transparent);
     cursor: pointer;
+  
   }
   /* even event */
   .events .event:nth-child(even) {
@@ -305,9 +306,10 @@
     display: flex;
     align-items: center;
     pointer-events: none;
+    
   }
   .events .event .title .event-title {
-    font-size: 1rem;
+    font-size: 2rem !important;
     font-weight: 400;
     margin-left: 20px;
   }
@@ -319,7 +321,7 @@
     color: #fff;
   }
   .events .event .event-time {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #878895;
     margin-left: 15px;
