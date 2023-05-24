@@ -74,10 +74,10 @@ app.get("/users/tracker", (req, res) => {
   console.log(req.isAuthenticated());
 });
 
-// app.get("/users/ForgotPass", (req, res) => {
-//   res.render("forgotpass.ejs")
-//   console.log(req.isAuthenticated());
-// });
+app.get("/users/dashboard", (req, res) => {
+  res.render("button")
+  console.log(req.isAuthenticated());
+});
 
 // app.get("/users/ForgotPass", (req, res) => {
 //   res.render("forgotpass.ejs")
