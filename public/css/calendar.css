@@ -9,7 +9,7 @@
   }
   /* nice scroll bar */
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 12px;
   }
   ::-webkit-scrollbar-track {
     background: #f5f5f5;

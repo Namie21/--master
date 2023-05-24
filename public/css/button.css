@@ -24,8 +24,10 @@
 }
 
 .card h3 {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 550;
+  color: #878895;
+  padding-top: 10px;
   
 }
 
@@ -43,7 +45,7 @@
 .drop_box h4 {
   font-size: 16px;
   font-weight: 400;
-  color: #2e2e2e;
+  color: #878895;
 }
 
 .drop_box p {
@@ -55,19 +57,20 @@
 
 .btn {
   text-decoration: none;
-  background-color: #005af0;
-  color: #ffffff;
-  padding: 10px 20px;
+  background-color:  #8d64b4;
+  color: #b38add;
+  padding: 1.5px 20px;
   border: none;
   outline: none;
+  outline: 1px solid #010101;
   transition: 0.3s;
 }
 
 .btn:hover{
   text-decoration: none;
   background-color: #ffffff;
-  color: #005af0;
-  padding: 10px 20px;
+  color: #010101;
+  padding: 0px 20px;
   border: none;
   outline: 1px solid #010101;
 }
